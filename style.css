@@ -1,0 +1,92 @@
+body {
+  background-color: black;
+}
+
+.blueButton {
+  width: 8em;
+  height: 3em;
+  font-size: 1.5em;
+  border: none;
+  background-color: #2962ff;
+  color: white;
+  cursor: help;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  border-radius: 0.2em;
+  outline: none;
+  transition: all 100ms ease-in;
+}
+
+.redButton {
+  width: 8em;
+  height: 3em;
+  font-size: 1.5em;
+  border: none;
+  background-color: #ff0000;
+  color: white;
+  cursor: help;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  border-radius: 0.2em;
+  outline: none;
+  transition: all 100ms ease-in;
+}
+
+.greenButton {
+  width: 8em;
+  height: 3em;
+  font-size: 1.5em;
+  border: none;
+  background-color: #1eff00;
+  color: white;
+  cursor: help;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  border-radius: 0.2em;
+  outline: none;
+  transition: all 100ms ease-in;
+}
+
+.yellowButton {
+  width: 8em;
+  height: 3em;
+  font-size: 1.5em;
+  border: none;
+  background-color: #ffff00;
+  color: white;
+  cursor: help;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  border-radius: 0.2em;
+  outline: none;
+  transition: all 100ms ease-in;
+}
+
+.blueButton:active,
+.blueButton:hover {
+  background-color: var(--clr-primary-hover);
+}
+
+.redButton:active,
+.redButton:hover {
+  background-color: var(--clr-primary-hover);
+}
+
+.greenButton:active,
+.greenButton:hover {
+  background-color: var(--clr-primary-hover);
+}
+
+.yellowButton:active,
+.yellowButton:hover {
+  background-color: var(--clr-primary-hover);
+}
+
+.grid-container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 215px 215px;
+  grid-template-rows: 90px;
+  justify-content: center;
+  align-content: center;
+}
