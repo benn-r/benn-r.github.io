@@ -24,7 +24,7 @@ body {
   border: none;
   background-color: #ff0000;
   color: white;
-  cursor: help;
+  cursor: sw-resize;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   border-radius: 0.2em;
@@ -39,7 +39,7 @@ body {
   border: none;
   background-color: #1eff00;
   color: white;
-  cursor: help;
+  cursor: wait;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   border-radius: 0.2em;
@@ -54,7 +54,22 @@ body {
   border: none;
   background-color: #ffff00;
   color: white;
-  cursor: help;
+  cursor: vertical-text;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  border-radius: 0.2em;
+  outline: none;
+  transition: all 100ms ease-in;
+}
+
+.blackButton {
+  width: 8em;
+  height: 3em;
+  font-size: 1.5em;
+  border: none;
+  background-color: #000000;
+  color: black;
+  cursor: not-allowed;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   border-radius: 0.2em;
@@ -79,6 +94,11 @@ body {
 
 .yellowButton:active,
 .yellowButton:hover {
+  background-color: var(--clr-primary-hover);
+}
+
+.blackButton:active,
+.blackButton:hover {
   background-color: var(--clr-primary-hover);
 }
 
